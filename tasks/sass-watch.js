@@ -10,7 +10,7 @@
 
 module.exports = function (grunt) {
   // Quick and dirty grunt task to spawn sass --watch when starting the dev server
-  grunt.registerTask('sass-watch', 'Custom Sass Task', function(folderPath) {
+  grunt.registerMultiTask('sass-watch', 'Custom Sass Task', function(folderPath) {
     var done = this.async();
 
     var options = this.options();
