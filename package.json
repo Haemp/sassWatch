@@ -1,5 +1,5 @@
 {
-  "name": "grunt-sassWatch",
+  "name": "grunt-sass-watch",
   "version": "0.0.1",
   "description": "A Grunt Tasks that simply executes a single sass --watch command",
   "main": "Gruntfile.js",
