@@ -7,13 +7,13 @@ Spawns ```sass --watch --compass``` in a specified folder. This is much faster t
 If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
 
 ```shell
-npm install grunt-sassWatch --save-dev
+npm install grunt-sass-watch --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-sassWatch');
+grunt.loadNpmTasks('grunt-sass-watch');
 ```
 
 [grunt]: http://gruntjs.com
@@ -24,12 +24,12 @@ grunt.loadNpmTasks('grunt-sassWatch');
 
 ```js
 // Assumes the styles (css and scss) directory is located at 'app/styles'.
-grunt.loadNpmTasks('grunt-sassWatch');
+grunt.loadNpmTasks('grunt-sass-watch');
 
 // Will look for the styles directory at my_cool_styles
 grunt.loadNpmTasks('grunt-sassWatch:my_cool_styles');
 
-grunt.registerTask('default', ['sassWatch']);
+grunt.registerTask('default', ['sass-watch']);
 ```
 
 ## Why did I do this when grunt-contrib-sass and grunt-contrib-compass already exist?
